@@ -91,10 +91,10 @@ timestep = int(robot.getBasicTimeStep())
 #Set up motors
 motorL = robot.getDevice('motor_L')
 motorL.setPosition(float('inf'))
-motorL.setVelocity(0)
+motorL.setVelocity(5)
 motorR = robot.getDevice('motor_R')
 motorR.setPosition(float('inf'))
-motorR.setVelocity(0)
+motorR.setVelocity(5)
 motors = [motorL, motorR]
 
 #Set up Encoders
